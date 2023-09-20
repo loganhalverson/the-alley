@@ -1,6 +1,8 @@
-<p align="center">
-  <img src="https://i.imgur.com/IzzYykw.jpeg" width=50% height=50% />
-</p>
+<div align="center">
+    <img src="https://i.imgur.com/IzzYykw.jpeg" width=50% height=50% />
+    </br>
+    <a href="https://regal-cactus-f42c40.netlify.app/">Demo Website</a>
+</div>
 
 ## The Alley
 
