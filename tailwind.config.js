@@ -12,7 +12,7 @@ module.exports = {
 			transform: {},
 			animation: {
 				'bogo-fade': 'fadeIn 1.5s cubic-bezier(.36,.19,.28,.97) forwards',
-				'bogo-fade-slow': 'fadeInSlow 4s cubic-bezier(.36,.19,.28,.97) forwards',
+				'bogo-fade-slow': 'fadeInSlow 3s cubic-bezier(.36,.19,.28,.97) forwards',
 				'bogo-bg': 'newBgColor 0.25s ease-in-out forwards',
 			},
 			keyframes: {
@@ -21,7 +21,7 @@ module.exports = {
 					'100%': { opacity: 1 },
 				},
 				fadeInSlow: {
-					'0%, 50%': { opacity: 0 },
+					'0%, 66%': { opacity: 0 },
 					'100%': { opacity: 1 },
 				},
 				newBgColor: {
