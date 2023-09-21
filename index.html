@@ -7,8 +7,8 @@
 		<link rel="shortcut icon" href="./src/favicon.png" type="image/x-icon" />
 		<title>The Alley</title>
 	</head>
-	<body class="bg-coffee min-h-screen text-green-50">
-		<div class="container mx-auto block flex-row p-8 md:flex md:gap-x-8 md:p-8 lg:p-32">
+	<body class="bg-coffee min-h-screen text-green-50 flex items-center">
+		<div class="container mx-auto flex-row md:flex md:gap-x-8 p-8 lg:px-32 lg:py-0">
 			<div class="block flex-col md:flex md:w-1/2">
 				<!-- Logo -->
 				<div class="relative">
@@ -78,7 +78,7 @@
 
 			<div class="block flex-col justify-between md:flex md:w-3/4">
 				<!-- Jazz Performances -->
-				<div class="border-coffeeLight mt-10 flex flex-row items-start rounded-lg border-b px-2 py-4">
+				<div class="border-coffeeLight mt-6 md:mt-0 flex flex-row items-start rounded-lg border-b px-2 py-4">
 					<div class="mr-4 flex w-1/4 justify-center p-2">
 						<svg class="h-3/4 w-3/4 text-amber-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
 							<path
@@ -93,7 +93,7 @@
 				</div>
 
 				<!-- Address -->
-				<div class="border-coffeeLight mt-10 flex flex-row items-start rounded-lg border-b px-2 py-4">
+				<div class="border-coffeeLight mt-6 flex flex-row items-start rounded-lg border-b px-2 py-4">
 					<div class="mr-4 flex w-1/4 justify-center p-2">
 						<svg class="h-3/4 w-3/4 text-amber-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
 							<path fill="currentColor" d="M8 0C5.2 0 3 2.2 3 5s4 11 5 11s5-8.2 5-11s-2.2-5-5-5zm0 8C6.3 8 5 6.7 5 5s1.3-3 3-3s3 1.3 3 3s-1.3 3-3 3z" />
@@ -109,7 +109,7 @@
 				</div>
 
 				<!-- Three Menu Buttons -->
-				<div class="mt-10 flex flex-row gap-x-4 px-2">
+				<div class="mt-6 flex flex-row gap-x-4 px-2">
 					<a
 						href="https://thealleyws.com/wp-content/uploads/2023/04/Wine-and-Beer-041823a-1-pdf.jpg"
 						class="border-coffeeLight hover:animate-bogo-bg group relative flex w-1/3 flex-col items-center gap-y-3 rounded-lg border-b py-2">
@@ -174,7 +174,9 @@
 					</a>
 				</div>
 			</div>
-			<footer class="flex mt-8 md:absolute md:bottom-0 mx-auto rounded-lg m-4">
+
+			<!-- Footer -->
+			<footer class="block md:absolute md:bottom-0 mx-auto rounded-lg m-4">
 				<div class="w-full p-4 md:flex md:items-center md:justify-between gap-x-4">
 					<span class="text-sm text-coffeeLight sm:text-center">© 2023 The Alley. All Rights Reserved. </span>
 					<ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-coffeeLight sm:mt-0">
