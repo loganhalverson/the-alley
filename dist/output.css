@@ -592,12 +592,12 @@ video {
   top: 50%;
 }
 
-.m-4 {
-  margin: 1rem;
+.bottom-0 {
+  bottom: 0px;
 }
 
-.m-16 {
-  margin: 4rem;
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-auto {
@@ -608,6 +608,31 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mr-4 {
@@ -626,12 +651,24 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -650,12 +687,20 @@ video {
   display: table;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-3\/4 {
   height: 75%;
 }
 
 .h-6 {
   height: 1.5rem;
+}
+
+.h-1\/2 {
+  height: 50%;
 }
 
 .min-h-screen {
@@ -680,6 +725,18 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
 }
 
 .table-auto {
@@ -753,8 +810,20 @@ video {
   align-items: flex-start;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -772,6 +841,10 @@ video {
 
 .gap-y-3 {
   row-gap: 0.75rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .rounded-lg {
@@ -796,16 +869,8 @@ video {
   padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-8 {
   padding: 2rem;
-}
-
-.p-16 {
-  padding: 4rem;
 }
 
 .px-2 {
@@ -821,26 +886,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .pb-0 {
@@ -935,6 +980,11 @@ video {
   letter-spacing: 0.1em;
 }
 
+.text-\[\#A9925A\] {
+  --tw-text-opacity: 1;
+  color: rgb(169 146 90 / var(--tw-text-opacity));
+}
+
 .text-amber-200 {
   --tw-text-opacity: 1;
   color: rgb(253 230 138 / var(--tw-text-opacity));
@@ -953,6 +1003,14 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.decoration-dotted {
+  text-decoration-style: dotted;
+}
+
+.decoration-1 {
+  text-decoration-thickness: 1px;
 }
 
 .transition-all {
@@ -1003,6 +1061,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
   .md\:absolute {
     position: absolute;
   }
@@ -1011,16 +1073,38 @@ video {
     bottom: 0px;
   }
 
-  .md\:mt-10 {
-    margin-top: 2.5rem;
+  .md\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .md\:mt-0 {
     margin-top: 0px;
   }
 
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-1\/2 {
+    height: 50%;
   }
 
   .md\:w-1\/2 {
@@ -1035,6 +1119,22 @@ video {
     align-items: center;
   }
 
+  .md\:justify-normal {
+    justify-content: normal;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -1044,21 +1144,16 @@ video {
          column-gap: 2rem;
   }
 
-  .md\:p-8 {
-    padding: 2rem;
+  .md\:gap-y-16 {
+    row-gap: 4rem;
+  }
+
+  .md\:gap-y-4 {
+    row-gap: 1rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:p-32 {
-    padding: 8rem;
-  }
-
-  .lg\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
   .lg\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
